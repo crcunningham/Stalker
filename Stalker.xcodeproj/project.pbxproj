@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* StalkerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* StalkerAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9011E8FF128F34FA00D621EF /* Stalker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9011E8FE128F34FA00D621EF /* Stalker.icns */; };
+		9011E912128F352400D621EF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9011E911128F352400D621EF /* README */; };
+		9039B04D11CAF9D70005868A /* unread.png in Resources */ = {isa = PBXBuildFile; fileRef = 9039B04C11CAF9D70005868A /* unread.png */; };
+		904D3DB011D1ADF9001FA49F /* configure.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D3DAF11D1ADF9001FA49F /* configure.png */; };
+		9069ECC411D115F600915C67 /* Status-Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 9069ECC311D115F600915C67 /* Status-Unknown.png */; };
+		9069ED2811D119D800915C67 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9069ED2711D119D800915C67 /* Reachability.m */; };
+		9069ED2E11D119E500915C67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9069ED2D11D119E500915C67 /* SystemConfiguration.framework */; };
+		9069EDB711D11EC600915C67 /* Status-Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9069EDB611D11EC600915C67 /* Status-Red.png */; };
+		90B39EF311C585D200773F85 /* PubSub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B39EF211C585D200773F85 /* PubSub.framework */; };
+		90B39EF711C586D500773F85 /* FeedStalker.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B39EF611C586D500773F85 /* FeedStalker.m */; };
+		90B39F6411C594D200773F85 /* FeedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B39F6311C594D200773F85 /* FeedEntry.m */; };
+		90B3A00F11C6781D00773F85 /* FeedEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A00E11C6781D00773F85 /* FeedEntryCell.m */; };
+		90B3A02F11C67AB600773F85 /* FeedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A02E11C67AB600773F85 /* FeedTableView.m */; };
+		90B3A41B11C7077300773F85 /* Status-Unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A41911C7077300773F85 /* Status-Unavailable.png */; };
+		90B3A41C11C7077300773F85 /* Status-Online.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A41A11C7077300773F85 /* Status-Online.png */; };
+		90B3A45611C70EB900773F85 /* BarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A45511C70EB900773F85 /* BarBackground.png */; };
+		90B3A46B11C7107000773F85 /* Reload.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A46A11C7107000773F85 /* Reload.gif */; };
+		90B3A4BB11C7297100773F85 /* FeedGrouper.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A4BA11C7297100773F85 /* FeedGrouper.m */; };
+		90BC766A11C7D88200EC404F /* FeedTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC766911C7D88200EC404F /* FeedTableViewDelegate.m */; };
+		90F14ECC11CAE36B0083CB8F /* IsReadTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F14ECB11CAE36B0083CB8F /* IsReadTransformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* StalkerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StalkerAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* StalkerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StalkerAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Stalker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stalker_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Stalker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stalker-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Stalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9011E8FE128F34FA00D621EF /* Stalker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Stalker.icns; sourceTree = "<group>"; };
+		9011E911128F352400D621EF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		9039B04C11CAF9D70005868A /* unread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unread.png; sourceTree = "<group>"; };
+		904D3DAF11D1ADF9001FA49F /* configure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configure.png; sourceTree = "<group>"; };
+		9069ECC311D115F600915C67 /* Status-Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status-Unknown.png"; sourceTree = "<group>"; };
+		9069ED2611D119D800915C67 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9069ED2711D119D800915C67 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9069ED2D11D119E500915C67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9069EDB611D11EC600915C67 /* Status-Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status-Red.png"; sourceTree = "<group>"; };
+		90B39EF211C585D200773F85 /* PubSub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PubSub.framework; path = System/Library/Frameworks/PubSub.framework; sourceTree = SDKROOT; };
+		90B39EF511C586D500773F85 /* FeedStalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedStalker.h; sourceTree = "<group>"; };
+		90B39EF611C586D500773F85 /* FeedStalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedStalker.m; sourceTree = "<group>"; };
+		90B39F6211C594D200773F85 /* FeedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEntry.h; sourceTree = "<group>"; };
+		90B39F6311C594D200773F85 /* FeedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEntry.m; sourceTree = "<group>"; };
+		90B3A00D11C6781D00773F85 /* FeedEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEntryCell.h; sourceTree = "<group>"; };
+		90B3A00E11C6781D00773F85 /* FeedEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEntryCell.m; sourceTree = "<group>"; };
+		90B3A02D11C67AB600773F85 /* FeedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableView.h; sourceTree = "<group>"; };
+		90B3A02E11C67AB600773F85 /* FeedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableView.m; sourceTree = "<group>"; };
+		90B3A41911C7077300773F85 /* Status-Unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status-Unavailable.png"; sourceTree = "<group>"; };
+		90B3A41A11C7077300773F85 /* Status-Online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status-Online.png"; sourceTree = "<group>"; };
+		90B3A45511C70EB900773F85 /* BarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarBackground.png; sourceTree = "<group>"; };
+		90B3A46A11C7107000773F85 /* Reload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Reload.gif; sourceTree = "<group>"; };
+		90B3A4B911C7297100773F85 /* FeedGrouper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedGrouper.h; sourceTree = "<group>"; };
+		90B3A4BA11C7297100773F85 /* FeedGrouper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedGrouper.m; sourceTree = "<group>"; };
+		90BC766811C7D88200EC404F /* FeedTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewDelegate.h; sourceTree = "<group>"; };
+		90BC766911C7D88200EC404F /* FeedTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewDelegate.m; sourceTree = "<group>"; };
+		90F14ECA11CAE36B0083CB8F /* IsReadTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsReadTransformer.h; sourceTree = "<group>"; };
+		90F14ECB11CAE36B0083CB8F /* IsReadTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsReadTransformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				90B39EF311C585D200773F85 /* PubSub.framework in Frameworks */,
+				9069ED2E11D119E500915C67 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* StalkerAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* StalkerAppDelegate.m */,
+				90B39EF511C586D500773F85 /* FeedStalker.h */,
+				90B39EF611C586D500773F85 /* FeedStalker.m */,
+				90B39F6211C594D200773F85 /* FeedEntry.h */,
+				90B39F6311C594D200773F85 /* FeedEntry.m */,
+				90B3A00D11C6781D00773F85 /* FeedEntryCell.h */,
+				90B3A00E11C6781D00773F85 /* FeedEntryCell.m */,
+				90B3A02D11C67AB600773F85 /* FeedTableView.h */,
+				90B3A02E11C67AB600773F85 /* FeedTableView.m */,
+				90B3A4B911C7297100773F85 /* FeedGrouper.h */,
+				90B3A4BA11C7297100773F85 /* FeedGrouper.m */,
+				90BC766811C7D88200EC404F /* FeedTableViewDelegate.h */,
+				90BC766911C7D88200EC404F /* FeedTableViewDelegate.m */,
+				90F14ECA11CAE36B0083CB8F /* IsReadTransformer.h */,
+				90F14ECB11CAE36B0083CB8F /* IsReadTransformer.m */,
+				9069ED2611D119D800915C67 /* Reachability.h */,
+				9069ED2711D119D800915C67 /* Reachability.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				90B39EF211C585D200773F85 /* PubSub.framework */,
+				9069ED2D11D119E500915C67 /* SystemConfiguration.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Stalker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Stalker */ = {
+			isa = PBXGroup;
+			children = (
+				9011E911128F352400D621EF /* README */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Stalker;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Stalker_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9011E8FE128F34FA00D621EF /* Stalker.icns */,
+				904D3DAF11D1ADF9001FA49F /* configure.png */,
+				9069ECC311D115F600915C67 /* Status-Unknown.png */,
+				9039B04C11CAF9D70005868A /* unread.png */,
+				90B3A46A11C7107000773F85 /* Reload.gif */,
+				9069EDB611D11EC600915C67 /* Status-Red.png */,
+				90B3A45511C70EB900773F85 /* BarBackground.png */,
+				90B3A41911C7077300773F85 /* Status-Unavailable.png */,
+				90B3A41A11C7077300773F85 /* Status-Online.png */,
+				8D1107310486CEB800E47090 /* Stalker-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Stalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Stalker" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stalker;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Stalker;
+			productReference = 8D1107320486CEB800E47090 /* Stalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stalker" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Stalker */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Stalker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				90B3A41B11C7077300773F85 /* Status-Unavailable.png in Resources */,
+				90B3A41C11C7077300773F85 /* Status-Online.png in Resources */,
+				90B3A45611C70EB900773F85 /* BarBackground.png in Resources */,
+				90B3A46B11C7107000773F85 /* Reload.gif in Resources */,
+				9039B04D11CAF9D70005868A /* unread.png in Resources */,
+				9069ECC411D115F600915C67 /* Status-Unknown.png in Resources */,
+				9069EDB711D11EC600915C67 /* Status-Red.png in Resources */,
+				904D3DB011D1ADF9001FA49F /* configure.png in Resources */,
+				9011E8FF128F34FA00D621EF /* Stalker.icns in Resources */,
+				9011E912128F352400D621EF /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* StalkerAppDelegate.m in Sources */,
+				90B39EF711C586D500773F85 /* FeedStalker.m in Sources */,
+				90B39F6411C594D200773F85 /* FeedEntry.m in Sources */,
+				90B3A00F11C6781D00773F85 /* FeedEntryCell.m in Sources */,
+				90B3A02F11C67AB600773F85 /* FeedTableView.m in Sources */,
+				90B3A4BB11C7297100773F85 /* FeedGrouper.m in Sources */,
+				90BC766A11C7D88200EC404F /* FeedTableViewDelegate.m in Sources */,
+				90F14ECC11CAE36B0083CB8F /* IsReadTransformer.m in Sources */,
+				9069ED2811D119D800915C67 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stalker_Prefix.pch;
+				INFOPLIST_FILE = "Stalker-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Stalker;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stalker_Prefix.pch;
+				INFOPLIST_FILE = "Stalker-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Stalker;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Stalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
